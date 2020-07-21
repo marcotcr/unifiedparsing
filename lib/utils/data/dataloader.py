@@ -1,7 +1,8 @@
 import torch
 import torch.multiprocessing as multiprocessing
-from torch._C import _set_worker_signal_handlers, _update_worker_pids, \
+from torch._C import _set_worker_signal_handlers,  \
     _remove_worker_pids, _error_if_any_worker_fails
+from torch._C import _set_worker_pids as _update_worker_pids
 from .sampler import SequentialSampler, RandomSampler, BatchSampler
 import signal
 import functools

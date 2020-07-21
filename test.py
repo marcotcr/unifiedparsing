@@ -125,7 +125,7 @@ def main(args):
         nr_classes=args.nr_classes,
         weights=args.weights_decoder,
         use_softmax=True)
-    
+
     segmentation_module = SegmentationModule(net_encoder, net_decoder)
     segmentation_module.cuda()
 

@@ -1,4 +1,5 @@
-TEST_IMG=ADE_val_00000001.jpg
+# TEST_IMG=ADE_val_00000001.jpg
+TEST_IMG=kitchen-equipment.jpg
 MODEL_PATH=upp-resnet50-upernet
 RESULT_PATH=./
 
